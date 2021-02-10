@@ -69,22 +69,12 @@ public class Player {
 
     public static void main(String[] args) {
          List<Player> players = new ArrayList<>();
-         players.add
+         players.add();
 
 
     }
 
-    public List<Player> serialize(List<Player> source, String filtPath){
-        try(
-                FileOutputStream fileOutputStream = new FileOutputStream(filtPath);
-                ) {
-            out.writeObject(source);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+
 
 
 }
